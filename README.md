@@ -12,7 +12,7 @@ Code and audit materials for the OA corpus — 209,072 matched-pair decisions fr
 
 ## Dataset
 
-Full corpus on [HuggingFace](https://huggingface.co/datasets/oasubmission/OASUBMISSION).
+Full corpus on [HuggingFace](https://huggingface.co/datasets/operationalalignment/dataset).
 
 ## License
 
