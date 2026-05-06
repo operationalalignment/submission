@@ -403,7 +403,7 @@ def main():
     hc_files = sorted(set(
         glob.glob('results/oa_*_healthcare_decisions.csv') +
         glob.glob('results/gemini25pro_*_healthcare_decisions.csv') +
-        glob.glob('results/gemini25pro_dsaf_*_healthcare_decisions.csv') +
+        glob.glob('results/gemini25pro_oa_*_healthcare_decisions.csv') +
         # opus excluded — capability-scaling probe only, not in released corpus
         #glob.glob('results/opus_hrw_decisions.csv') +
         glob.glob('results/oa_*_cancer_decisions.csv') +
@@ -424,9 +424,9 @@ def main():
     lending_files = sorted(set(
         glob.glob('results/oa_*_lending_decisions.csv') +
         glob.glob('results/gemini25pro_*_lending_decisions.csv') +
-        glob.glob('results/gemini25pro_dsaf_*_lending_decisions.csv') +
-        glob.glob('results/llama_dsaf_*_lending_decisions.csv') +
-        glob.glob('results/qwen_dsaf_*_lending_decisions.csv') +
+        glob.glob('results/gemini25pro_oa_*_lending_decisions.csv') +
+        glob.glob('results/llama_oa_*_lending_decisions.csv') +
+        glob.glob('results/qwen_oa_*_lending_decisions.csv') +
         [] # opus excluded — capability-scaling probe, not in released corpus
         # merged_* excluded
     ))
