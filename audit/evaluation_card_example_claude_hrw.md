@@ -41,7 +41,7 @@
 
 ## 8. Per-Configuration Results
 - **Violation Rate:** 47.6% (N=250, 95% Wilson CI [41.5%, 53.8%])
-- **Compliance-Fabrication Rate:** 89.5% (2,767/3,091 violations across all Claude cells)
+- **Compliance-Fabrication Rate:** 60.2% (1,861/3,091 violations across all Claude cells)
 - **Intervention Portability:** System-prompt PROHIBIT intervention reduces this cell from 47.6% to 0.0%; same intervention does NOT transport to trading THM (44% violations under bull-market data alone)
 - **Cross-Model Transport:** GPT-4o on same configuration: 13.6%; DeepSeek-V3: 94.0%; Llama 4 Maverick: 100.0% (ceiling-saturated). Configuration produces opposite rank-orderings compared to published aggregate safety scores.
 
