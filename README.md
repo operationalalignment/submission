@@ -7,7 +7,7 @@ Code and audit materials for the OA corpus — 209,072 matched-pair decisions fr
 - `classifiers/` — Domain-specific violation classifiers (healthcare, lending, trading)
 - `corpus_generation/` — Evaluation framework and LLM client
 - `analysis/` — Corpus compilation, statistical analysis, and release CSV generation
-- `audit/` — Compliance masking audit (400 dual-coded items, κ=0.94), evaluation cards, manipulation library, prompt templates, regulatory grounding
+- `audit/` — Compliance masking audit (400 dual-coded items, κ=0.99), evaluation cards, manipulation library, prompt templates, regulatory grounding
 - `mechanistic/` — SAE interpretability scripts (Gemma 3 27B)
 
 ## Dataset
